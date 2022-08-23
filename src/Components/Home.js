@@ -55,11 +55,11 @@ const Home = () => {
             // backgroundColor: "red",
           }}
         >
-          {display2 ? (
-            <React.Suspense fallback={<div></div>}>
-              <Form />
-            </React.Suspense>
-          ) : (
+          {/* {display2 ? ( */}
+          <React.Suspense fallback={<div></div>}>
+            <Form />
+          </React.Suspense>
+          {/* ) : (
             <div
               style={{
                 minHeight: "500px",
@@ -67,7 +67,7 @@ const Home = () => {
                 // backgroundColor: "red",
               }}
             ></div>
-          )}
+          )} */}
         </div>
 
         <div
